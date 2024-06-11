@@ -1,0 +1,14 @@
+{
+  "name": "submission",
+  "version": "1.0.0",
+  "description": "submission bookshelf API",
+  "scripts": {
+    "start": "node src/server.js",
+    "lint": "eslint ./src"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^21.3.2",
+    "eslint": "^8.44.0",
+    "nanoid": "^3.1.22"
+  }
+}
